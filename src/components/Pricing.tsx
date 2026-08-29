@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import { WHATSAPP_URL } from '../lib/contact'
+
 type Plan = {
   id: string
   title: string
@@ -25,9 +27,9 @@ const plans: Plan[] = [
     badge: 'Best Seller',
   },
   {
-    id: 'express-12-b',
-    title: 'Express 12 Hours',
-    duration: '12-Hour Express',
+    id: 'express-24',
+    title: 'Express 24 Hours',
+    duration: '24-Hour Express',
     price: 'Rp25.000',
     badge: 'Best Seller',
   },
@@ -132,10 +134,12 @@ function PricingCard({ plan }: { plan: Plan }) {
       </span>
 
       <a
-        href="#contact"
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noreferrer"
         className="mt-8 w-full rounded-full bg-secondary-400 px-6 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-secondary-500"
       >
-        Choose Plan
+        Booking Now
       </a>
     </div>
   )
