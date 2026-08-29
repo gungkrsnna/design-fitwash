@@ -1,5 +1,5 @@
-import { WHATSAPP_DISPLAY, WHATSAPP_URL } from '../lib/contact'
-import { ADDRESS, MAP_DIRECTIONS_URL } from '../lib/location'
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, WHATSAPP_DISPLAY, WHATSAPP_URL } from '../lib/contact'
+import { SERVICE_AREA } from '../lib/location'
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -52,14 +52,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href={MAP_DIRECTIONS_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="transition hover:text-secondary-400"
-              >
-                {ADDRESS}
-              </a>
+              <span>{SERVICE_AREA} — free pickup & delivery</span>
             </li>
           </ul>
         </div>
@@ -68,7 +61,9 @@ function Footer() {
           <h3 className="text-sm font-semibold tracking-wide text-white uppercase">Follow Us</h3>
           <ul className="mt-4 flex flex-col gap-2 text-sm">
             <li>
-              <span className="text-slate-500">@fitwashlaundrybali (placeholder)</span>
+              <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer" className="transition hover:text-secondary-400">
+                {INSTAGRAM_HANDLE}
+              </a>
             </li>
           </ul>
         </div>

@@ -1,4 +1,4 @@
-import { WHATSAPP_DISPLAY, WHATSAPP_URL } from '../lib/contact'
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, WHATSAPP_DISPLAY, WHATSAPP_URL } from '../lib/contact'
 
 function Contact() {
   return (
@@ -65,8 +65,14 @@ function Contact() {
               </svg>
             </div>
             <h3 className="mt-3 font-semibold text-slate-900">Follow Us</h3>
-            <p className="mt-1 text-sm text-slate-800/80">@fitwashlaundrybali</p>
-            <p className="mt-1 text-xs text-slate-800/50">(placeholder, please confirm)</p>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 inline-block text-sm text-slate-800/80 hover:underline"
+            >
+              {INSTAGRAM_HANDLE}
+            </a>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import { ADDRESS, MAP_DIRECTIONS_URL, MAP_EMBED_SRC } from '../lib/location'
+import { WHATSAPP_URL } from '../lib/contact'
+import { MAP_EMBED_SRC, SERVICE_AREA } from '../lib/location'
 
 const coverageAreas = [
   'Denpasar',
@@ -26,7 +27,7 @@ function LocationSection() {
         <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-stretch">
           <div className="overflow-hidden rounded-2xl border border-slate-100 shadow-lg">
             <iframe
-              title="FitWash Laundry Bali location"
+              title="FitWash Laundry Bali service area"
               src={MAP_EMBED_SRC}
               className="h-80 w-full lg:h-full"
               loading="lazy"
@@ -58,26 +59,11 @@ function LocationSection() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-semibold text-slate-900">Our Store Address</h3>
-                <p className="mt-1 text-sm text-slate-600">{ADDRESS}</p>
-                <a
-                  href={MAP_DIRECTIONS_URL}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-secondary-600 hover:text-secondary-700"
-                >
-                  Get Directions
-                  <svg
-                    className="h-4 w-4"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </a>
+                <h3 className="font-semibold text-slate-900">Service Area</h3>
+                <p className="mt-1 text-sm text-slate-600">{SERVICE_AREA}</p>
+                <p className="mt-1 text-sm text-slate-500">
+                  We come to you — free pickup & delivery, no need to visit a store.
+                </p>
               </div>
             </div>
 
@@ -96,12 +82,12 @@ function LocationSection() {
             </div>
 
             <a
-              href={MAP_DIRECTIONS_URL}
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noreferrer"
               className="mt-auto rounded-full bg-secondary-400 px-6 py-3 text-center font-semibold text-slate-900 transition hover:bg-secondary-500"
             >
-              Open in Google Maps
+              Book a Pickup via WhatsApp
             </a>
           </div>
         </div>
