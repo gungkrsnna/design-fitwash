@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary-50: #fffbeb;
+  --color-secondary-100: #fef6d8;
+  --color-secondary-200: #fcecb0;
+  --color-secondary-300: #f9dd7e;
+  --color-secondary-400: #f5cd57;
+  --color-secondary-500: #f2c94c;
+  --color-secondary-600: #d9ae2e;
+  --color-secondary-700: #b38a1f;
+  --color-secondary-800: #8f6c17;
+  --color-secondary-900: #6b5010;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-zoom-out {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
