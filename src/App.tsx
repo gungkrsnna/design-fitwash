@@ -6,7 +6,6 @@ import Navbar from './components/Navbar'
 import HowItWorks from './components/HowItWorks'
 import LocationSection from './components/LocationSection'
 import Pricing from './components/Pricing'
-import Testimonials from './components/Testimonials'
 import WhatsAppButton from './components/WhatsAppButton'
 import WhyChooseUs from './components/WhyChooseUs'
 
@@ -57,8 +56,6 @@ function App() {
         <HowItWorks />
 
         <LocationSection />
-
-        <Testimonials />
 
         <Contact />
       </main>
