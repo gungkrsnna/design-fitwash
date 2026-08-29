@@ -44,7 +44,6 @@ function Contact() {
             </div>
             <h3 className="mt-3 font-semibold text-slate-900">Operating Hours</h3>
             <p className="mt-1 text-sm text-slate-800/80">Everyday, 08:00 - 21:00</p>
-            <p className="mt-1 text-xs text-slate-800/50">(placeholder, please confirm)</p>
           </div>
 
           <div className="rounded-2xl bg-white/40 p-6 backdrop-blur-sm">

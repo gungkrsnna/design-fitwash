@@ -54,7 +54,6 @@
     <meta name="twitter:image" content="https://www.fitwashlaundrybali.com/image-fitwashlaundry.webp" />
 
     <!-- Structured Data: helps Google show rich results (address, phone, price range) -->
-    <!-- TODO: add openingHoursSpecification once actual operating hours are confirmed. -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -64,6 +63,20 @@
         "url": "https://www.fitwashlaundrybali.com/",
         "telephone": "+6285142910505",
         "priceRange": "Rp25.000 - Rp60.000",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "21:00"
+        },
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Bali",
