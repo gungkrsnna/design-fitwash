@@ -5,6 +5,7 @@ const navLinks = [
   { label: 'Pricing', href: '#pricing' },
   { label: 'Why Choose Us', href: '#why-choose-us' },
   { label: 'Location', href: '#location' },
+  { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ]
 
