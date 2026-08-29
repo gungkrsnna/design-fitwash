@@ -84,7 +84,7 @@ function LocationSection() {
             <a
               href={WHATSAPP_URL}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="mt-auto rounded-full bg-secondary-400 px-6 py-3 text-center font-semibold text-slate-900 transition hover:bg-secondary-500"
             >
               Book a Pickup via WhatsApp

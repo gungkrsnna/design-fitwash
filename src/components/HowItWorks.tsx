@@ -4,12 +4,12 @@ const steps = [
   {
     number: '01',
     title: 'Book Your Order',
-    description: 'Contact us via WhatsApp or visit our store to schedule your laundry pickup.',
+    description: 'Contact us via WhatsApp message to schedule a pickup for your laundry.',
   },
   {
     number: '02',
-    title: 'Pickup or Drop-off',
-    description: 'We pick up your laundry at your doorstep, or you can drop it off directly at our store.',
+    title: 'We Pick It Up',
+    description: 'Our courier staff will pick up your clothes at the scheduled time.',
   },
   {
     number: '03',

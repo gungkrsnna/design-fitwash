@@ -48,7 +48,7 @@ function Footer() {
           <h3 className="text-sm font-semibold tracking-wide text-white uppercase">Contact</h3>
           <ul className="mt-4 flex flex-col gap-3 text-sm">
             <li>
-              <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="transition hover:text-secondary-400">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="transition hover:text-secondary-400">
                 {WHATSAPP_DISPLAY}
               </a>
             </li>
@@ -62,7 +62,7 @@ function Footer() {
           <h3 className="text-sm font-semibold tracking-wide text-white uppercase">Follow Us</h3>
           <ul className="mt-4 flex flex-col gap-2 text-sm">
             <li>
-              <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer" className="transition hover:text-secondary-400">
+              <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="transition hover:text-secondary-400">
                 {INSTAGRAM_HANDLE}
               </a>
             </li>

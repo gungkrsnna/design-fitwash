@@ -12,11 +12,11 @@
       name="description"
       content="FitWash Laundry Bali offers fast, clean, and reliable laundry service across Bali with express options from 6 to 24 hours, free pickup & delivery, and premium detergent. Serving Kuta, Seminyak, Sanur, Kerobokan, and more."
     />
+    <link rel="canonical" href="https://fitwashlaundrybali.com/" />
 
     <!-- Open Graph / Facebook, WhatsApp, Instagram link previews -->
-    <!-- TODO: replace https://your-domain.com with the real production domain once deployed -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:url" content="https://fitwashlaundrybali.com/" />
     <meta property="og:site_name" content="FitWash Laundry Bali" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="FitWash Laundry Bali | Express Laundry Pickup & Delivery" />
@@ -24,7 +24,7 @@
       property="og:description"
       content="Fast, clean, and reliable laundry service across Bali with express options from 6 to 24 hours, free pickup & delivery, and premium detergent. Serving Kuta, Seminyak, Sanur, Kerobokan, and more."
     />
-    <meta property="og:image" content="https://your-domain.com/image-fitwashlaundry.webp" />
+    <meta property="og:image" content="https://fitwashlaundrybali.com/image-fitwashlaundry.webp" />
     <meta property="og:image:width" content="1536" />
     <meta property="og:image:height" content="1024" />
 
@@ -35,20 +35,19 @@
       name="twitter:description"
       content="Fast, clean, and reliable laundry service across Bali with express options from 6 to 24 hours, free pickup & delivery, and premium detergent. Serving Kuta, Seminyak, Sanur, Kerobokan, and more."
     />
-    <meta name="twitter:image" content="https://your-domain.com/image-fitwashlaundry.webp" />
+    <meta name="twitter:image" content="https://fitwashlaundrybali.com/image-fitwashlaundry.webp" />
 
     <!-- Structured Data: helps Google show rich results (address, phone, price range) -->
-    <!-- TODO: replace https://your-domain.com with the real production domain, and add -->
-    <!-- openingHoursSpecification once actual operating hours are confirmed. -->
+    <!-- TODO: add openingHoursSpecification once actual operating hours are confirmed. -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "DryCleaningOrLaundry",
         "name": "FitWash Laundry Bali",
-        "image": "https://your-domain.com/image-fitwashlaundry.webp",
-        "url": "https://your-domain.com/",
+        "image": "https://fitwashlaundrybali.com/image-fitwashlaundry.webp",
+        "url": "https://fitwashlaundrybali.com/",
         "telephone": "+6285142910505",
-        "priceRange": "Rp25.000 - Rp40.000",
+        "priceRange": "Rp25.000 - Rp60.000",
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Bali",
@@ -65,6 +64,48 @@
           "Dalung"
         ],
         "sameAs": ["https://www.instagram.com/fitwash.laundrybali/"]
+      }
+    </script>
+
+    <!-- FAQPage Structured Data: must stay in sync with src/components/FAQ.tsx -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will my clothes be mixed with other people's clothes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Of course not. We guarantee that each order is processed separately using dedicated equipment to ensure hygiene and prevent loss or mix-ups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What payment methods do you accept?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For your convenience, we accept cash (IDR), local bank transfers, and digital payments such as QRIS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I am not at the villa/hotel when the driver arrives?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No problem! You can store your linens at the hotel reception. Just send us the address via WhatsApp."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a minimum order quantity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, the minimum weight for our collection and delivery service is 3 kg. If your laundry weighs less than 3 kg, you will still be charged the 3 kg rate."
+            }
+          }
+        ]
       }
     </script>
   </head>

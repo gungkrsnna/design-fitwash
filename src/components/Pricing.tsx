@@ -136,7 +136,7 @@ function PricingCard({ plan }: { plan: Plan }) {
       <a
         href={WHATSAPP_URL}
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         className="mt-8 w-full rounded-full bg-secondary-400 px-6 py-3 text-center text-sm font-semibold text-slate-900 transition hover:bg-secondary-500"
       >
         Booking Now

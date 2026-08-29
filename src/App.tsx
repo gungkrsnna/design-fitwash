@@ -35,7 +35,7 @@ function App() {
               <a
                 href={WHATSAPP_URL}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="flex-1 rounded-full bg-secondary-400 px-4 py-2.5 text-center text-sm font-semibold text-slate-900 transition hover:bg-secondary-500 sm:flex-none sm:px-8 sm:py-3 sm:text-base"
               >
                 Booking Via Whatsapp

@@ -13,7 +13,7 @@ function Contact() {
           <a
             href={WHATSAPP_URL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-8 py-4 font-semibold text-white transition hover:bg-slate-800"
           >
             <svg className="h-5 w-5" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
@@ -68,7 +68,7 @@ function Contact() {
             <a
               href={INSTAGRAM_URL}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="mt-1 inline-block text-sm text-slate-800/80 hover:underline"
             >
               {INSTAGRAM_HANDLE}
