@@ -1,4 +1,5 @@
 import Contact from './components/Contact'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import HeroBackground from './components/HeroBackground'
 import { WHATSAPP_URL } from './lib/contact'
@@ -56,6 +57,8 @@ function App() {
         <HowItWorks />
 
         <LocationSection />
+
+        <FAQ />
 
         <Contact />
       </main>
